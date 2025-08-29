@@ -1,11 +1,10 @@
 <!doctype html>
 <html>
 <head>
-<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-
-<link href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'><style type='text/css'>html {overflow-x: initial !important;}</style>
+<style type='text/css'  id="style-base">:root { --bg-color: #ffffff; --text-color: #333333; --select-text-bg-color: #B5D6FC; --select-text-font-color: auto; --monospace: "Lucida Console",Consolas,"Courier",monospace; --title-bar-height: 20px; }
 .mac-os-11 { --title-bar-height: 28px; }
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, "Segoe UI Emoji", "SF Pro", sans-serif; -webkit-font-smoothing: antialiased; }
 h1, h2, h3, h4, h5 { white-space: pre-wrap; }
 body { margin: 0px; padding: 0px; height: auto; inset: 0px; font-size: 1rem; line-height: 1.428571; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
@@ -14,7 +13,7 @@ a:active, a:hover { outline: 0px; }
 .in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
 #write { margin: 0px auto; height: auto; width: inherit; word-break: normal; overflow-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 36px; }
 #write.first-line-indent p { text-indent: 2em; }
-#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li p, #write.first-line-indent p *, #write.first-line-indent svg * { text-indent: 0px; }
 #write.first-line-indent li { margin-left: 2em; }
 .for-image #write { padding-left: 8px; padding-right: 8px; }
 body.typora-export { padding-left: 30px; padding-right: 30px; }
@@ -31,7 +30,8 @@ button, input, select, textarea { color: inherit; font-style: inherit; font-vari
 input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
 *, ::after, ::before { box-sizing: border-box; }
 #write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; position: relative; }
-#write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; }
+#write svg h1, #write svg h2, #write svg h3, #write svg h4, #write svg h5, #write svg h6, #write svg p { position: static; white-space: nowrap; overflow: visible; }
+foreignObject { overflow: visible; }
 p { line-height: inherit; }
 h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 4; }
 p { orphans: 4; }
@@ -219,8 +219,9 @@ mjx-container { break-inside: avoid; }
 .md-alert-text svg { fill: currentcolor; position: relative; top: 0.125em; margin-right: 1ch; overflow: visible; }
 .md-alert-text-container::after { content: attr(data-text); text-transform: capitalize; pointer-events: none; margin-right: 1ch; }
 
-
-/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
+</style>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&amp;subset=latin,cyrillic-ext,cyrillic,latin-ext' type='text/css' />
+<style type='text/css'  id="style-theme_css">/* meyer reset -- http://meyerweb.com/eric/tools/css/reset/ , v2.0 | 20110126 | License: none (public domain) */
 
 @include-when-export url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700,700italic&subset=latin,cyrillic-ext,cyrillic,latin-ext);
 
@@ -255,7 +256,7 @@ html {
 
 html, body {
 	background-color: #f3f2ee;
-	font-family: "PT Serif", 'Times New Roman', Times, serif;
+	font-family: "PT Serif", 'Times New Roman', 'SF Pro', "游明朝体", Times, serif;
 	color: #1f0909;
 	line-height: 1.5em;
 }
@@ -812,16 +813,17 @@ input {
 	border-radius: 2px;
 	font-weight: 700;
 	color: inherit
-}
+}</style>
+<style type='text/css'  id="style-lp">ol, ul {padding-left: 40px}</style>
+<style type='text/css'  id="style-mac-print"> @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}</style>
 
- @media print { @page {margin: 0 0 0 0;} body.typora-export {padding-left: 0; padding-right: 0;} #write {padding:0;}}
-</style><title>Batu Guan 官巴圖</title>
+<title>Batu Guan 官巴圖</title>
 </head>
 <body class='typora-export'><div class='typora-export-content'>
 <div id='write'  class=''><h1 id='batu-guan-官巴圖'><span>Batu Guan 官巴圖</span></h1><p><span>PhD Student </span>
 <span>Supervisor: </span><a href='https://shao-hua-li.github.io/'><span>Shaohua Li</span></a>
 <a href='https://www.cse.cuhk.edu.hk/'><span>Department of Computer Science and Engineering</span></a>
 <a href='https://www.cuhk.edu.hk/english/index.html'><span>The Chinese University of Hong Kong</span></a>
-<span>[</span><a href='mailto:batuguan@link.cuhk.edu.hk'><span>Email</span></a><span>]</span><span>[</span><a href='https://github.com/AsparticGuan'><span>GitHub</span></a><span>]</span><span>[</span><a href='https://eabyhtxqazq.feishu.cn/wiki/space/7535484265602088988?ccm_open_type=lark_wiki_spaceLink&amp;open_tab_from=wiki_home'><span>Blog</span></a><span>]</span></p><h2 id='education'><span>Education</span></h2><ul><li><p><span>Sep 2021 - June 2025, Huazhong University of Science and Technology, Bachelor of Engineering in Computer Science and Technology</span></p></li></ul><h2 id='research-interests'><span>Research Interests</span></h2><ul><li><p><span>Programming Language</span></p></li><li><p><span>Software Engineering</span></p></li><li><p><span>Language Model</span></p></li></ul><h2 id='publications'><span>Publications</span></h2><ul><li><p><strong><span>Is Your Benchmark Useful? Dynamic Benchmarking for Code Language Models</span></strong><span>. </span><strong><span>Batu Guan</span></strong><span>, Xiao Wu, Yuanyuan Yuan, Shaohua Li. arXiv&#39;25. </span><span>[</span><a href='https://arxiv.org/abs/2503.06643'><span>URL</span></a><span>]</span></p></li><li><p><strong><span>CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code</span></strong><span>. </span><strong><span>Batu Guan</span></strong><span>, Yao Wan, Zhangqian Bi, Zheng Wang, Hongyu Zhang, Pan Zhou, Lichao Sun. EMNLP&#39;24 Findings. </span><span>[</span><a href='https://aclanthology.org/2024.findings-emnlp.541/'><span>URL</span></a><span>]</span></p></li></ul><h2 id='awards'><span>Awards</span></h2><ul><li><p><span>Outstanding Graduate, HUST, 2025.</span></p></li><li><p><span>Scholarship for Scientific and Technological Innovation, HUST, 2024.</span></p></li><li><p><span>Scholarship for Academic Excellence, HUST, 2023.</span></p></li><li><p><span>Scholarship for Academic Excellence, HUST, 2022.</span></p><p>&nbsp;</p></li></ul></div></div>
+<span>[</span><a href='mailto:btguan@cse.cuhk.edu.hk'><span>Email</span></a><span>] [</span><a href='https://github.com/AsparticGuan'><span>GitHub</span></a><span>]</span><span> [</span><a href='https://eabyhtxqazq.feishu.cn/wiki/space/7535484265602088988?ccm_open_type=lark_wiki_spaceLink&amp;open_tab_from=wiki_home'><span>Blog</span></a><span>]</span></p><h2 id='education'><span>Education</span></h2><ul><li><p><span>Sep 2021 - June 2025, Huazhong University of Science and Technology, Bachelor of Engineering in Computer Science and Technology</span></p></li></ul><h2 id='research-interests'><span>Research Interests</span></h2><ul><li><p><span>Programming Language</span></p></li><li><p><span>Software Engineering</span></p></li><li><p><span>Language Model</span></p></li></ul><h2 id='publications'><span>Publications</span></h2><ul><li><p><strong><span>Is Your Benchmark Useful? Dynamic Benchmarking for Code Language Models</span></strong><span>. </span><strong><span>Batu Guan</span></strong><span>, Xiao Wu, Yuanyuan Yuan, Shaohua Li. arXiv&#39;25. [</span><a href='https://arxiv.org/abs/2503.06643'><span>URL</span></a><span>]</span></p></li><li><p><strong><span>CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code</span></strong><span>. </span><strong><span>Batu Guan</span></strong><span>, Yao Wan, Zhangqian Bi, Zheng Wang, Hongyu Zhang, Pan Zhou, Lichao Sun. EMNLP&#39;24 Findings. [</span><a href='https://aclanthology.org/2024.findings-emnlp.541/'><span>URL</span></a><span>]</span></p></li></ul><h2 id='awards'><span>Awards</span></h2><ul><li><p><span>Outstanding Graduate, HUST, 2025.</span></p></li><li><p><span>Scholarship for Scientific and Technological Innovation, HUST, 2024.</span></p></li><li><p><span>Scholarship for Academic Excellence, HUST, 2023.</span></p></li><li><p><span>Scholarship for Academic Excellence, HUST, 2022.</span></p><p>&nbsp;</p></li></ul></div></div>
 </body>
 </html>
